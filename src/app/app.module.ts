@@ -6,6 +6,7 @@ import { CardBodyComponent } from './card/card-body/card-body.component';
 import { CardFooterComponent } from './card/card-footer/card-footer.component';
 import { CardHeaderComponent } from './card/card-header/card-header.component';
 import { CardComponent } from './card/card.component';
+import { SchnitzelComponent } from './schnitzel/schnitzel.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { CardComponent } from './card/card.component';
     CardComponent,
     CardHeaderComponent,
     CardFooterComponent,
-    CardBodyComponent
+    CardBodyComponent,
+    SchnitzelComponent
   ],
   imports: [
     BrowserModule
